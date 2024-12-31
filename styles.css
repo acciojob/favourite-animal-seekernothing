@@ -1,2 +1,10 @@
 
 /* Your CSS Code here. */
+/* Make the image responsive */
+#animal-image {
+    max-width: 100%; /* Image will not be larger than its container */
+    height: auto; /* Preserve aspect ratio */
+    display: block; /* Remove default inline element spacing */
+    margin: 0 auto; /* Center the image horizontally */
+    border-radius: 10px; /* Optional: Add rounded corners to the image */
+}
